@@ -1,0 +1,15 @@
+server:
+  port: 8086
+  
+spring.jpa.hibernate.ddl-auto: update
+spring.datasource.url: jdbc:mysql://localhost:3306/manager-db
+spring.datasource.username : root
+spring.datasource.password : 
+
+
+        
+spring:
+  application:
+    name: manager-service  
+  
+logging:  file:    path: C:\Users\uesr 21\Desktop\logs\elk.log
